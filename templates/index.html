@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Develop your MLR model</h1>
+
+<form class="" action="data" method="POST">
+    <h2>Choose Training set file</h2>
+    <p>
+    <input type = "file" name = "csvfile_tr" Value = "Choose Training set">
+    </p>
+    <h2>Choose test set file</h2>
+    <p>
+    <input type = "file" name = "csvfile_ts" Value = "Choose Test set">
+    </p>
+    <h2>Dependent variable column</h2>
+    <p>
+    <input type="radio" name="options" id="option1" value="first"> First </input>
+    <input type="radio" name="options" id="option2" value="last"> Last </input>
+    </p>
+    <p>
+    <input type = "submit" Value = "Submit">
+    </p>
+</form>
+
+{% endblock %}
