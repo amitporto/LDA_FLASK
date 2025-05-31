@@ -1,0 +1,79 @@
+.quimat {
+  margin:0 auto;
+  height:80px;
+  background-color: hsl(176, 79%, 75%);
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid green;
+}
+
+img{
+  height: 60px;
+}
+
+.quimat p{
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.quimat ul{
+padding-left: 500px;
+padding-top: 10px;
+}
+
+.quimat li{
+  display:inline-block;
+  float: left;
+
+}
+
+body {
+  margin: auto;
+  background-color: hsl(195, 72%, 85%)
+}
+
+.form{
+  text-align: center;
+}
+.form input{
+  font-size: 15px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.head, .good-h, .table-h {
+  margin-bottom: 10px;
+  height:40px;
+  background-color: hsl(193, 99%, 36%);
+  color: seashell;
+}
+
+.correl{
+  text-align: center;
+}
+
+.equation{
+  padding-top: 10px;
+  border: 2px dotted green;
+}
+
+
+h1,h2,h3,h4,p,a {
+  font-family: Helvetica;
+  text-align: center;
+  padding-top: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table-h th{
+  background: hsl(195, 72%, 85%)
+}
